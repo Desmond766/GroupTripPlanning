@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/testCalanderpicker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
+        android:id="@+id/calendarnew"
+        android:layout_width="312dp"
+        android:layout_height="375dp"
+        android:background="@drawable/drawable_shape_gray"
+        custom:disable_date_color="#F8F5F5"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.505"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:range_color="@color/range_bg_color_app"
+        custom:selected_date_circle_color="@color/color_red"
+        custom:title_color="@color/black">
+
+    </com.archit.calendardaterangepicker.customviews.DateRangeCalendarView>
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="312dp"
+        android:layout_height="45dp"
+        android:text="@string/Save"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:focusable="true"
+        custom:layout_constraintBottom_toBottomOf="@+id/calendarnew"
+        custom:layout_constraintEnd_toEndOf="@+id/calendarnew"
+        custom:layout_constraintStart_toStartOf="@+id/calendarnew" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "983633101241",
+    "firebase_url": "https://tourplanner-feab9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tourplanner-feab9",
+    "storage_bucket": "tourplanner-feab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983633101241:android:f7e246e6cea645e5fd3668",
+        "android_client_info": {
+          "package_name": "com.example.LoginRegister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983633101241-6bkk7fsdtf2m8iglj8cmisbivf8vbuvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTiREQiqnaAUD9BU29y2TD3aOTpo03ZRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983633101241-6bkk7fsdtf2m8iglj8cmisbivf8vbuvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983633101241:android:e26f9eabd94703b9fd3668",
+        "android_client_info": {
+          "package_name": "com.example.loginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983633101241-6bkk7fsdtf2m8iglj8cmisbivf8vbuvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTiREQiqnaAUD9BU29y2TD3aOTpo03ZRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983633101241-6bkk7fsdtf2m8iglj8cmisbivf8vbuvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

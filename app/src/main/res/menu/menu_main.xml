@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.loginregister.Login_Register.ShareLinkActivity">
+
+    <item
+        android:title="@string/Create_Chatgroup"
+        android:id="@+id/CharRoom_create_group_option"
+        app:showAsAction="never"
+        />
+
+</menu>

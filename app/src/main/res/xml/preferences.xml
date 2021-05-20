@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <!--below line is to create preference category-->
+    <PreferenceCategory android:title="General">
+
+        <!--in below line we are creating a list preference
+            and we are adding default selected value in list for 3 rd index-->
+        <!--dialog title is to set title for our dialog box
+            entries is used to add list of data which we
+            are adding from our strings file
+            entry values is to add values to our entries.
+            key is use to add key to our list preferences
+            summary is use to add description to our option
+            title is use to add title to our list preferences.-->
+        <!--this list preference is for remind me option-->
+<!--        <ListPreference-->
+<!--            android:defaultValue="3"-->
+<!--            android:dialogTitle="@string/remind_to_take_a_break"-->
+<!--            android:entries="@array/pref_remind_me_to_take_a_break"-->
+<!--            android:entryValues="@array/pref_duration"-->
+<!--            android:key="@string/key_upload_quality"-->
+<!--            android:summary="@string/remind_me"-->
+<!--            android:title="@string/remind_me" />-->
+
+
+
+<!--        &lt;!&ndash;below switch preferences is use to restrict mode&ndash;&gt;-->
+<!--&lt;!&ndash;        key is use to set key&ndash;&gt;-->
+<!--&lt;!&ndash;        title is use to add title to our switch&ndash;&gt;&ndash;&gt;-->
+<!--        <SwitchPreference-->
+<!--            android:defaultValue="false"-->
+<!--            android:key="@string/prefs_restricted_mode"-->
+<!--            android:summary="@string/restricated_mode"-->
+<!--            android:title="@string/restricated_mode_description" />-->
+
+<!--        <CheckBoxPreference-->
+<!--            android:title="SignOut"-->
+<!--            android:defaultValue="true"-->
+<!--            android:summary="Show Call Interface when clicking call button"-->
+<!--            android:key="checkboxPref"-->
+<!--            />-->
+
+        <EditTextPreference
+            android:title="Feedback"
+            android:key="feedback"
+            android:summary="please fill in any advices to us, it really matters"
+            />
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="Account">
+        <Preference
+            android:title="Email address change"
+            android:key="@string/reset_email"
+            />
+
+        <Preference
+            android:title="Forget Password"
+            android:key="@string/forget_password_click_here"
+            />
+
+
+        <Preference
+            android:title="Log Out"
+            android:key="@string/btnlogOut"
+            android:summary="This will log Out your account"
+            />
+        <Preference
+            android:title="Number change"
+            android:key="@string/changeNumber"
+            android:summary="This will be your new number"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

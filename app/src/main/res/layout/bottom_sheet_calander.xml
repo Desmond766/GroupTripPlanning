@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bottom_sheet"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/resetdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="@string/newDate"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/calendarnew"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/calendarnew"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
+        android:id="@+id/calendarnew"
+        custom:disable_date_color="#F8F5F5"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.505"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:range_color="@color/range_bg_color_app"
+        custom:selected_date_circle_color="@color/color_red"
+        custom:title_color="@color/black"
+        android:layout_width="309dp"
+        android:layout_height="358dp"
+        android:background="@drawable/drawable_shape_gray"
+        app:layout_constraintTop_toBottomOf="@+id/resetdate">
+
+    </com.archit.calendardaterangepicker.customviews.DateRangeCalendarView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/calcel"
+        android:textSize="18sp"
+        android:focusable="true"
+        app:layout_constraintEnd_toStartOf="@+id/resetdate"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/SaveDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/Save"
+        android:textSize="18sp"
+        android:focusable="true"
+        app:layout_constraintStart_toEndOf="@+id/resetdate"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_list_type">
+        <item>Overview</item>
+        <item>Itinerary</item>
+        <item>Discuss</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+    <integer-array name="images_for_my_list">
+        <item>@drawable/tourbackground</item>
+        <item>@drawable/background5</item>
+        <item>@drawable/background10</item>
+        <item>@drawable/background7</item>
+        <item>@drawable/background8</item>
+        <item>@drawable/background9</item>
+        <item>@drawable/background10</item>
+        <item>@drawable/background6</item>
+        <item>@drawable/background11</item>
+        <item>@drawable/background1</item>
+        <item>@drawable/background2</item>
+        <item>@drawable/background3</item>
+        <item>@drawable/background4</item>
+    </integer-array>
+    <string-array name="pref_remind_me_to_take_a_break">
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>5 hours</item>
+        <item>10 hours</item>
+    </string-array>
+
+    <string-array name="pref_seek_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_uploads">
+        <item>Only when on Wi-Fi</item>
+        <item>On any network</item>
+    </string-array>
+
+
+</resources>
